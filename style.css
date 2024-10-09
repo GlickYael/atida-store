@@ -5,7 +5,34 @@ body{
     direction: rtl;
 }
 
+.sidebar{
+    display: flex;
+    flex-direction:column;
+    width: 15%;
+}
+
+.sidebarButton{
+    margin: 1vw;
+    height: 4vh;
+    background-color: rgba(107, 237, 107, 0.771);
+    border-radius: 5%;
+}
+
+.sidebarButton:hover{
+    background-color: rgba(6, 146, 6, 0.771);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    margin-left: 20vw;
+}
+
 .prod-area{
+    width: 85%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
