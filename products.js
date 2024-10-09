@@ -4,21 +4,21 @@ var gNotebooks = [
         catalogId: 82,
         title: "ספירלה 2 נושא שורות - 1יח",
         price: 9.9,
-        image: "/imgs/notebooks/iq2sub.jpg",
+        image: "./imgs/notebooks/iq2sub.jpg",
         tags: ["rows", "2sub", "a4", "spiral"]
     },
     {
         catalogId: 1,
         title: "ספירלה 1 נושא שורות - 1יח",
         price: 4.9,
-        image: "/imgs/notebooks/iq1sub.jpg",
+        image: "./imgs/notebooks/iq1sub.jpg",
         tags: ["rows", "1sub", "a4", "spiral"]
     },
     {
         catalogId: 2,
         title: "ספירלה 1 נושא משבצות",
         price: 4.9,
-        image: "/imgs/notebooks/basik_math.jpg",
+        image: "./imgs/notebooks/basik_math.jpg",
         tags: ["squares", "a4", "spiral"]
     },
     {
@@ -46,21 +46,21 @@ var gNotebooks = [
         catalogId: 6,
         title: "מארז 5 מחברת שורות - 14 שורות",
         price: 7.5,
-        image: "/imgs/craft/19.jpg",
+        image: "./imgs/craft/19.jpg",
         tags: ["rows", "a5", "10rows"]
     },
     {
         catalogId: 7,
         title: "מארז 5 מחברת משבצות",
         price: 7.5,
-        image: "/imgs/craft/19.jpg",
+        image: "./imgs/craft/19.jpg",
         tags: ["squares", "a5"]
     },
     {
         catalogId: 8,
         title: "מחברת אנגלית A5 בודדת",
         price: 1.9,
-        image: "/imgs/notebooks/english.jpg",
+        image: "./imgs/notebooks/english.jpg",
         tags: ["english", "a5", "rows"]
     },
     {
@@ -127,20 +127,20 @@ var gCraft = [
         title: "מארז תיכוניסטים/יות",
         price: 54.90,
         description: "3 עטי פילוט 0.4  ||  8 דפדפות שורות  ||  מארז 4 מרקרים של סטבילו",
-        image: "/imgs/craft/highschool.jpg",
+        image: "./imgs/craft/highschool.jpg",
     },
     {
         catalogId: 39,
         title: "מארז 10 מחקים של סטדלר",
         price: 8.0,
-        image: "/imgs/craft/02.jpg",
+        image: "./imgs/craft/02.jpg",
     },
     {
         catalogId: 40,
         title: "מחדד מיכל סטדלר",
         price: 7.9,
         old_price: 10.7,
-        image: "/imgs/craft/22.jpg",
+        image: "./imgs/craft/22.jpg",
     },
     {
         catalogId: 41,
