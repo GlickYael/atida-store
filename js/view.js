@@ -16,8 +16,8 @@ const renderProducts = (products) => {
     }
     document.getElementById('prod-area').innerHTML = productsStr;
 }
-function renderFakeProducts(){
-    fetch('https://fakestoreapi.com/products/category/jewelery?limit=10')
+function renderFakeProducts(category){
+    fetch(`https://fakestoreapi.com/products/category/${category}?limit=10`)
             .then(res=>res.json())
             .then((products)=>{
                 console.log(products);

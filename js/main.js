@@ -10,6 +10,10 @@ function rendergCraft(){
 function rendergNotebooks(){
     renderProducts(gNotebooks);
 }
-function renderFakeJewelery(){
-    renderFakeProducts();
+function renderJeweley(){
+    renderFakeProducts('jewelery');
+}
+
+function renderElectronics(){
+    renderFakeProducts('electronics');
 }
