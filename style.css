@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.prod-area{
+    display: grid;
+    grid-template-columns: repeat(autofill,);
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding:0 1rem;
+    border-radius: 5px;
+}
+.prod-title{
+    display: flex;
+    flex-direction: row;
+    
+}
