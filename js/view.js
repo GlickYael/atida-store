@@ -2,8 +2,8 @@ const getProduct = (product)=>{
     return `
     <div class="product">
         <h2 class="prod-title">${product.title}</h2>
-        <img src=${product.image} alt="תמונת המוצר">
-        <p> מחיר: ${product.price}</p>
+        <img src=${product.image}>
+        <p> מחיר: ${product.price}₪</p>
         <button>הוספה לסל</button>
     </div>
     `;
@@ -15,4 +15,12 @@ const renderProducts = (products) => {
         productsStr += getProduct(product);
     }
     document.getElementById('prod-area').innerHTML = productsStr;
+}
+function renderFakeProducts(){
+    fetch('https://fakestoreapi.com/products/category/jewelery?limit=10')
+            .then(res=>res.json())
+            .then((products)=>{
+                console.log(products);
+                renderProducts(products);
+            })
 }
