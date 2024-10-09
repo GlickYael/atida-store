@@ -93,3 +93,7 @@ h1{
     border-radius: 4px;
     cursor: pointer;
 }
+
+.product button:hover{
+    background-color:#0f3888c5 ;
+}
